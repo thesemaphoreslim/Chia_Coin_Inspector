@@ -23,6 +23,7 @@ namespace Chia_Coin_Inspector
 
         private async void RefreshPageLoad()
         {
+            nftImage.Image = null;
             var endpoint = Config.Open().GetEndpoint("wallet");
             using (var rpcClient = new HttpRpcClient(endpoint))
             {

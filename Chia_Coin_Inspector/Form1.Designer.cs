@@ -46,9 +46,10 @@
             // 
             // walletList
             // 
+            walletList.Anchor = AnchorStyles.Left;
             walletList.FormattingEnabled = true;
             walletList.ItemHeight = 15;
-            walletList.Location = new Point(3, 920);
+            walletList.Location = new Point(28, 795);
             walletList.Name = "walletList";
             walletList.Size = new Size(218, 94);
             walletList.TabIndex = 1;
@@ -56,11 +57,12 @@
             // 
             // chart1
             // 
+            chart1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             chartArea1.Name = "ChartArea1";
             chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             chart1.Legends.Add(legend1);
-            chart1.Location = new Point(227, 920);
+            chart1.Location = new Point(418, 747);
             chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
@@ -69,22 +71,24 @@
             series1.Legend = "Legend1";
             series1.Name = "Fragmentation";
             chart1.Series.Add(series1);
-            chart1.Size = new Size(1070, 252);
+            chart1.Size = new Size(490, 252);
             chart1.TabIndex = 2;
             chart1.Text = "Coin Fragmentation";
             // 
             // XCHlbl
             // 
+            XCHlbl.Anchor = AnchorStyles.Left;
             XCHlbl.AutoSize = true;
-            XCHlbl.Location = new Point(3, 1096);
+            XCHlbl.Location = new Point(108, 934);
             XCHlbl.Name = "XCHlbl";
             XCHlbl.Size = new Size(0, 15);
             XCHlbl.TabIndex = 3;
             // 
             // Coinslbl
             // 
+            Coinslbl.Anchor = AnchorStyles.Left;
             Coinslbl.AutoSize = true;
-            Coinslbl.Location = new Point(3, 1129);
+            Coinslbl.Location = new Point(108, 967);
             Coinslbl.Name = "Coinslbl";
             Coinslbl.Size = new Size(0, 15);
             Coinslbl.TabIndex = 4;
@@ -94,22 +98,24 @@
             chiarecords.AllowUserToAddRows = false;
             chiarecords.AllowUserToDeleteRows = false;
             chiarecords.AllowUserToOrderColumns = true;
+            chiarecords.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             chiarecords.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             chiarecords.EditMode = DataGridViewEditMode.EditProgrammatically;
-            chiarecords.Location = new Point(3, 58);
+            chiarecords.Location = new Point(3, 36);
             chiarecords.MultiSelect = false;
             chiarecords.Name = "chiarecords";
             chiarecords.ReadOnly = true;
             chiarecords.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            chiarecords.Size = new Size(1294, 158);
+            chiarecords.Size = new Size(1294, 258);
             chiarecords.TabIndex = 6;
             chiarecords.TabStop = false;
             chiarecords.MouseDown += chiarecords_MouseDown;
             // 
             // blockstatuslbl
             // 
+            blockstatuslbl.Anchor = AnchorStyles.Top;
             blockstatuslbl.AutoSize = true;
-            blockstatuslbl.Location = new Point(3, 40);
+            blockstatuslbl.Location = new Point(631, 7);
             blockstatuslbl.Name = "blockstatuslbl";
             blockstatuslbl.Size = new Size(38, 15);
             blockstatuslbl.TabIndex = 8;
@@ -127,10 +133,11 @@
             // 
             // nftImage
             // 
-            nftImage.Location = new Point(3, 222);
+            nftImage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            nftImage.Location = new Point(313, 300);
             nftImage.Name = "nftImage";
-            nftImage.Size = new Size(1294, 692);
-            nftImage.SizeMode = PictureBoxSizeMode.CenterImage;
+            nftImage.Size = new Size(659, 435);
+            nftImage.SizeMode = PictureBoxSizeMode.StretchImage;
             nftImage.TabIndex = 11;
             nftImage.TabStop = false;
             // 
@@ -138,7 +145,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1300, 1184);
+            ClientSize = new Size(1300, 1008);
             Controls.Add(nftImage);
             Controls.Add(Refreshbtn);
             Controls.Add(blockstatuslbl);
