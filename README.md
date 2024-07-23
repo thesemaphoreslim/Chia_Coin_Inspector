@@ -9,3 +9,5 @@ Clicking "Yes" will send an RPC command to the wallet requesting the update.  Yo
 Go slowly and use with caution as I've performed testing of the app but only in a limited capacity.  I was able to purchase a few NFTs that exhibited the "redirect" behavior some folks have been seeing which helped me code this, but there may be conditions I did not plan for.  Please open issues and provide feedback to let me know your experience.
 
 Additionally, there is a section at the bottom of the form that displays your Wallet IDs in a listview.  Clicking on an ID will display both the coin balance and the number of coins in that wallet. That is for identifying coin fragmentation in your wallet and is still under development.
+
+Special thanks to Don Kackman [@dkack](https://github.com/dkackman) for their chia-dotnet library available on NuGet.
