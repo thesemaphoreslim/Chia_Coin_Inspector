@@ -46,10 +46,10 @@
             // 
             // walletList
             // 
-            walletList.Anchor = AnchorStyles.Left;
+            walletList.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             walletList.FormattingEnabled = true;
             walletList.ItemHeight = 15;
-            walletList.Location = new Point(28, 795);
+            walletList.Location = new Point(100, 747);
             walletList.Name = "walletList";
             walletList.Size = new Size(218, 94);
             walletList.TabIndex = 1;
@@ -77,18 +77,18 @@
             // 
             // XCHlbl
             // 
-            XCHlbl.Anchor = AnchorStyles.Left;
+            XCHlbl.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             XCHlbl.AutoSize = true;
-            XCHlbl.Location = new Point(108, 934);
+            XCHlbl.Location = new Point(972, 747);
             XCHlbl.Name = "XCHlbl";
             XCHlbl.Size = new Size(0, 15);
             XCHlbl.TabIndex = 3;
             // 
             // Coinslbl
             // 
-            Coinslbl.Anchor = AnchorStyles.Left;
+            Coinslbl.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             Coinslbl.AutoSize = true;
-            Coinslbl.Location = new Point(108, 967);
+            Coinslbl.Location = new Point(972, 780);
             Coinslbl.Name = "Coinslbl";
             Coinslbl.Size = new Size(0, 15);
             Coinslbl.TabIndex = 4;
