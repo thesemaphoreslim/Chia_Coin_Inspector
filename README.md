@@ -1,6 +1,6 @@
 This tool can be used to view your NFT images outside of the Chia Reference Wallet as well as update the URI of an NFT in situations where the image has been moved.
 
-You can download the .zip package from the release section and run "Chia_Coin_Inspector.exe" to launch the Windows Form.  Make sure you have your wallet running so the app can connect to it and read the list of NFTs.
+You can download the .zip package from the release section, extract the full contents of the .zip to a folder on your PC, and run "Chia_Coin_Inspector.exe" to launch the Windows Form.  Make sure you have your wallet running so the app can connect to it and read the list of NFTs.
 
 Upon launch, the datagrid at the top of the form will be populated with a list of all your NFTs.  Clicking on a single row will cause the app to try and download the NFT image and display it on the screen.  If the app detects a redirect (which indicates a potential issue with displaying the image in your Chia wallet), you will be presented with a prompt asking if you wish to update the NFT URL. For verification purposes, both the old and new URL will be provided in the message prompt.
 
